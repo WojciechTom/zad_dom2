@@ -2,25 +2,11 @@ import java.sql.SQLOutput;
 
 public class library {
     public static void main(String[] args) {
-        book ksiazka1 = new book();
-        ksiazka1.title = "Przeminęło z wiatrem";
-        ksiazka1.author = "Margaret Mitchell";
-        ksiazka1.pageAm = 250;
-        ksiazka1.yearRealise = 2000;
+        book ksiazka1 = new book("Przeminęło z wiatrem" , "Margaret Mitchell", 250, 2000 );
 
+        book ksiazka2 = new book("Java head first", "Kathy Sierra, Bert Bates", 325, 2009 );
 
-        book ksiazka2 = new book();
-        ksiazka2.title = "Java head first";
-        ksiazka2.author = "Kathy Sierra, Bert Bates";
-        ksiazka2.pageAm = 325;
-        ksiazka2.yearRealise = 2009;
-
-
-        book ksiazka3 = new book();
-        ksiazka3.title = "Bajki wybrane";
-        ksiazka3.author = "Tadeusz Dywan";
-        ksiazka3.pageAm = 25;
-        ksiazka3.yearRealise = 2016;
+        book ksiazka3 = new book("Bajki wybrane", "Tadeusz Dywan", 25, 2016  );
 
 
         System.out.println("Pierwsza ksiażka na półce to \"" + ksiazka1.title + "\" autorstwa " + ksiazka1.author + ".");
