@@ -12,4 +12,5 @@ public class cars {
                 ", rocznik: " + car2.year + ", pojemność: " + car2.capacity);
     }
 
+
 }
