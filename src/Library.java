@@ -1,6 +1,6 @@
 import java.sql.SQLOutput;
 
-public class library {
+public class Library {
     public static void main(String[] args) {
         book ksiazka1 = new book("Przeminęło z wiatrem" , "Margaret Mitchell", 250, 2000 );
 
